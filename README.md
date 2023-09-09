@@ -66,5 +66,18 @@ Home
 ![image](https://github.com/Theyloramaya/ABB-IRB-140--Robot-Industrial/assets/144027596/0c8dfb07-e0b1-42ad-84e8-45a9b387f49c)
 
 # Implementación
+Durante esta seccion de trabajo se realizan varios pasos basicos para obtener un trabajo funcional con el robot fisico.
+
+Inicialmente se realiza el montaje de la herramienta como se ve en las imagenes anteriores.
+
+Se agragan los archivos exportados del entorno RAPID de RobotStudio para trabajar con los robots ABB 140 ubicados en el LabSIR. Se cargan desde el mando del robot HMI.
+
+Luego se coloca un objeto, que en el caso de esta practica, es una punta fina, con la cual para rectificar los valores asignados en el modelo cad de la herramienta, se asignan al robot, para que asi con este se pueda realizar una calibración que el software interno del roboto realiza, para esto se llega al mismo punto en cuatro orientaciones diferentes , asi el roboto calibra el frame que debe ir en la punta de la herramient, y asi realizar los movimientos correctos internamente con este frame en la punta de la herramienta.
+
+Luego de esto, e procede a calibrar el workobject, esto se raliza con el metódo de los 3 puntos, primariamente se coloca el punto origen del workobject, luego un punto en el eje X positivo, y por ultimo un punto en el eje Y positivo, con lo cual el sistema crea un sistema de ejes coordenados (X,Y,Z) para el workobject.
+
+Como metódo de verificación, se trabaja desde el HMI moviendose a varios puntos claves contrastando con la ubicacion en la simulación virtual, para asi saber que el work object quedo definido correctamente. Despues de esto es posible realizar la trayectoria diseñada para el robot. Asi se logra realizar la trayectoria deseada y planificada.
+
+Para el caso realizado, quedo realizado incorrectamente le codigo, apesar de haber realizado un debug, ya que el robot mostro que era imposible llegar a las posicionea planteadas en simulación, se intento realizar la trayectoria manualmente, fracasando ya que se estrello la herramienta , a continuacion se muestran los resultados de lo realizado en fisico.
 
 # Conclusiones y aspectos a mejorar
