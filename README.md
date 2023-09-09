@@ -87,6 +87,18 @@ Para el caso realizado, quedo realizado incorrectamente le codigo, apesar de hab
 
 <p align="center"><img src="./Herramienta, montaje virtual.jpg" width=60%></p>
 
-<p align="center"><img src="./images/robot_montajefisico.jpeg" width=60%></p>
+<p align="center"><img src="./robot_montajefisico.jpeg" width=60%></p>
+
+
+En las dos imagenes previas se observa el montaje de la herramienta tanto en simulación como en el robot fisico.
+
+Luego en la consiguiente imagen se había realizado ya la calibracion de herramienta, y se estaba realizadon la calibracion del workobject
+
+<p align="center"><img src="./calibracion_workobject.jpeg" width=60%></p>
+En esta imagen se obser el HMI y como se estaban ubicando los dos ejes, X,Y respectivamente en el workobject que en este caso es paper periodico.
+
+Latimosamente luego de piscionado el workobject, no fue mermitido realizar la trayectoria presentada anteriormente. Para realizar esta verificación se posicionó el robot en todos sus ejes en  0° lo cual es el estado home 0 del robot y se intento realizar de nuevo esta ntrayectoria arrojando el mismo error anterior, de posiciones no alcnazables por el robot, por cuestiones de espacio no se pudo disponer nuevamente del robot, por lo cual se intentó en el mismo mo mento realizar el dibujo manual de un rectangulo, lo cual llevo a la fractura de la impresion de portaherramienta. Asi se vieron lo errores que pueden dar lugar a fallas graves como estrellar la máquina durante su trabajo.
+
+Este accidente que apesar de haberse realizado a una baja velocidad, ya una rutina planteada puede ser catastrofico. Se dio por l impresicion en el segundo paso mencionado para esta sección, el cual es colocar el marco de eferencia en la punta de la herramieta dando paso a un ligero moviento inclinado que bastó para fracturarl el PLA en el cual fue impreso el portaherramienta.
 
 # Conclusiones y aspectos a mejorar
