@@ -66,8 +66,8 @@ letras J-u-a-n
 Home
 ![image](https://github.com/Theyloramaya/ABB-IRB-140--Robot-Industrial/assets/144027596/0c8dfb07-e0b1-42ad-84e8-45a9b387f49c)
 
-
-![Video simulación](VIDEO_SIMULACIÓN/RobotStudio 9-9.mp4)
+# video
+[Video Simulación](VIDEO_SIMULACIÓN)
 
 
 # Implementación
