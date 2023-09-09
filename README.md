@@ -41,6 +41,7 @@ Este sistema de referencia es esencial, ya que servirá como el marco de trabajo
 ![image](https://github.com/Theyloramaya/ABB-IRB-140--Robot-Industrial/assets/144027596/3c7711b5-eabc-4bdb-a9d9-505737d90229)
 
 # Parametros de la trayectoria
+![Codigo rapid](RAPID_CODE/Module1.mod)
 
 # Simulación
 
