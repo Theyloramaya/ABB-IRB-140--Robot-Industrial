@@ -41,7 +41,7 @@ Este sistema de referencia es esencial, ya que servirá como el marco de trabajo
 ![image](https://github.com/Theyloramaya/ABB-IRB-140--Robot-Industrial/assets/144027596/3c7711b5-eabc-4bdb-a9d9-505737d90229)
 
 # Parametros de la trayectoria
-![Codigo rapid](RAPID_CODE/Module1.mod)
+[Codigo rapid](RAPID_CODE/Module1.mod)
 
 # Simulación
 
@@ -65,6 +65,11 @@ letras J-u-a-n
 
 Home
 ![image](https://github.com/Theyloramaya/ABB-IRB-140--Robot-Industrial/assets/144027596/0c8dfb07-e0b1-42ad-84e8-45a9b387f49c)
+
+
+
+[Video simulación](VIDEO_SIMULACIÓN/RobotStudio 9-9.mp4)
+
 
 # Implementación
 Durante esta seccion de trabajo se realizan varios pasos basicos para obtener un trabajo funcional con el robot fisico.
