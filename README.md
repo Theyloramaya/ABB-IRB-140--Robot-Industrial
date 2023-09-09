@@ -55,9 +55,13 @@ La zona tolerable de error es otro aspecto destacado de la simulación. Este fac
 Por último, la secuencia de rutinas definida es esencial en la simulación. El orden en el que se ejecutan las acciones, desde el retorno a la posición de inicio ("Home") hasta la escritura de las letras y la decoración, y luego nuevamente al retorno a la posición inicial, se ha planificado cuidadosamente para lograr una ejecución coherente y efectiva de la tarea en el siguiente orden:
 
 Home
+
 letras T-h-e-y
+
 decoración (":v")
+
 letras J-u-a-n
+
 Home
 ![image](https://github.com/Theyloramaya/ABB-IRB-140--Robot-Industrial/assets/144027596/0c8dfb07-e0b1-42ad-84e8-45a9b387f49c)
 
