@@ -1,7 +1,7 @@
 # ABB-IRB-140--Robot-Industrial
-Presentado por Theylor Andres Amaya Villabon taamayav@unal.edu.co
+Presentado por Theylor Andres Amaya Villabon taamayav@unal.edu.co , Juan Pablo Ortiz Mendoza jportizme@unal.edu.co
 
-En este repositorio, puedes acceder a todos los archivos esenciales que te serán útiles para llevar a cabo la primera práctica de la asignatura de Robótica en la Universidad Nacional de Colombia durante el semestre 2022-2. Esta práctica se enfoca en la creación de una herramienta adaptable para el Manipulador industrial ABB IRB 140. Su principal objetivo es permitir la ejecución de un proceso de escritura utilizando un marcador, siguiendo las trayectorias predefinidas en el programa en RAPID.
+En este repositorio, puedes acceder a todos los archivos esenciales que te serán útiles para llevar a cabo la primera práctica de la asignatura de Robótica en la Universidad Nacional de Colombia durante el semestre 2023-2. Esta práctica se enfoca en la creación de una herramienta adaptable para el Manipulador industrial ABB IRB 140. Su principal objetivo es permitir la ejecución de un proceso de escritura utilizando un marcador, siguiendo las trayectorias predefinidas en el programa en RAPID.
 
 Además, es necesario que el robot escriba el nombre de los dos estudiantes encargados del proyecto como parte integral de la implementación práctica. Esto significa que la rutina de RAPID que se debe desarrollar surgirá como resultado de un proceso de simulación en Robot Studio. Durante este proceso, es crucial llevar a cabo una calibración precisa tanto de la herramienta como del Workobject. Esto garantizará la generación de una trayectoria segura y precisa que incluirá la escritura de los nombres de los estudiantes de manera precisa y legible.
 
@@ -94,11 +94,16 @@ En las dos imagenes previas se observa el montaje de la herramienta tanto en sim
 
 Luego en la consiguiente imagen se había realizado ya la calibracion de herramienta, y se estaba realizadon la calibracion del workobject
 
-<p align="center"><img src="./calibracion_workobject.jpeg" width=60%></p>
-En esta imagen se obser el HMI y como se estaban ubicando los dos ejes, X,Y respectivamente en el workobject que en este caso es paper periodico.
+<p align="center"><img src="./calbracion_workobject.jpeg" width=60%></p>
+En esta imagen se observa el HMI y como se estaban ubicando los dos ejes, X,Y respectivamente en el workobject que en este caso es paper periodico.
 
-Latimosamente luego de piscionado el workobject, no fue mermitido realizar la trayectoria presentada anteriormente. Para realizar esta verificación se posicionó el robot en todos sus ejes en  0° lo cual es el estado home 0 del robot y se intento realizar de nuevo esta ntrayectoria arrojando el mismo error anterior, de posiciones no alcnazables por el robot, por cuestiones de espacio no se pudo disponer nuevamente del robot, por lo cual se intentó en el mismo mo mento realizar el dibujo manual de un rectangulo, lo cual llevo a la fractura de la impresion de portaherramienta. Asi se vieron lo errores que pueden dar lugar a fallas graves como estrellar la máquina durante su trabajo.
+Latimosamente luego de piscionado el workobject, no fue mermitido realizar la trayectoria presentada anteriormente. Para realizar esta verificación se posicionó el robot en todos sus ejes en  0° lo cual es el estado home 0 del robot y se intento realizar de nuevo esta ntrayectoria arrojando el mismo error anterior, de posiciones no alcnazables por el robot, por cuestiones de espacio no se pudo disponer nuevamente del robot, por lo cual se intentó en el mismo momento realizar el dibujo manual de un rectangulo, lo cual llevo a la fractura de la impresion de portaherramienta. Asi se vieron lo errores que pueden dar lugar a fallas graves como estrellar la máquina durante su trabajo.
 
-Este accidente que apesar de haberse realizado a una baja velocidad, ya una rutina planteada puede ser catastrofico. Se dio por l impresicion en el segundo paso mencionado para esta sección, el cual es colocar el marco de eferencia en la punta de la herramieta dando paso a un ligero moviento inclinado que bastó para fracturarl el PLA en el cual fue impreso el portaherramienta.
+Este accidente que apesar de haberse realizado a una baja velocidad, ya una rutina planteada puede ser catastrofico. Se dio por l impresicion en el segundo paso mencionado para esta sección, el cual es colocar el marco de eferencia en la punta de la herramieta dando paso a un ligero movimiento inclinado que bastó para fracturar el PLA en el cual fue impreso el portaherramienta. Por este motivo no se pudo continuar con el procedimiento fisico.
 
 # Conclusiones y aspectos a mejorar
+
+Del trabajo realizado se tiene una principal caracteristica, y es que el trabajo con el robot fisico es bastante diferente al trabajo en el softtware RobotStudio. Por este motivo se dieron fallas al momento de la implementación fisica ya que por cuestión de disposicion del robot,  y la fractura del portaherramienta, no se logro culminar exitosamente el problema, de esta leccion aprendida, se tiene que es pertinente realizar una trayectoria en el aire, para evitar un error de trayectoria y asi estrellar el equipo. Por otro lado se logró comprender como realiza el robot internamente los ajustes de coordenadas, ya que para ubicar el workobject, se movio por medio de la rotación de cada articulación, y tambien se procedió a moverse a traves de un sistema coordenado cartesiano, y el robot internamente realizaba los ajustes para realizar el movimiento. Es vital denotar que siempre es necesario tener correctamente la calibracion del sistema coordenado del workobject y de la herramienta.
+
+Se aconseja ademas verificar internamente el codigo ya en el HMI debido a que a pesar del software RobotStudio no arrojar errores de programación, el sistema fisico puede quee encuentre bugs en el codigo generado por RAPID, y asi realizar una correcta practica.
+
