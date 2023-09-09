@@ -85,4 +85,8 @@ Como metódo de verificación, se trabaja desde el HMI moviendose a varios punto
 
 Para el caso realizado, quedo realizado incorrectamente le codigo, apesar de haber realizado un debug, ya que el robot mostro que era imposible llegar a las posicionea planteadas en simulación, se intento realizar la trayectoria manualmente, fracasando ya que se estrello la herramienta , a continuacion se muestran los resultados de lo realizado en fisico.
 
+<p align="center"><img src="./Herramienta, montaje virtual.jpg" width=60%></p>
+
+<p align="center"><img src="./images/robot_montajefisico.jpeg" width=60%></p>
+
 # Conclusiones y aspectos a mejorar
